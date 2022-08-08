@@ -1,0 +1,8 @@
+[Unit]
+Description=verusmining
+After=network.target
+[Service]
+ExecStart=/root/ccminer/ccminer
+User=root
+[Install]
+WantedBy=multi-user.target
